@@ -1,0 +1,31 @@
+{
+  "name": "react-native-image-preview-carousel",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "preview-carousel",
+    "image-preview-carousel",
+    "carousel",
+    "flatlist"
+  ],
+  "description": "Display an image with preview images",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayushnawani/react-native-image-preview-carousel.git"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayush Nawani <ayu.nawani@gmail.com>",
+  "license": "MIT"
+}
