@@ -12,7 +12,7 @@ An Image Preview component
 
 ## Demo
 
-![](https://github.com/ayushnawani/rreact-native-image-preview-carousel/blob/master/example/demo.gif)
+![](https://github.com/ayushnawani/react-native-image-preview-carousel/blob/master/example/demo.gif)
 
 ## Props
 
