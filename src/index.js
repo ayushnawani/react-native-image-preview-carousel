@@ -40,6 +40,10 @@ export default class ImagePreviewCarousel extends Component {
     previewImageStyle: styleType,
 
     selectedPreviewImageContainerStyle: styleType,
+
+    mainFlatListProps: PropTypes.object,
+
+    previewFlatListProps: PropTypes.object,
   };
 
   static defaultProps = {
@@ -58,6 +62,8 @@ export default class ImagePreviewCarousel extends Component {
     previewImageStyle: {},
 
     selectedPreviewImageContainerStyle: {},
+
+    mainFlatListProps: {},
   };
 
   constructor(props) {

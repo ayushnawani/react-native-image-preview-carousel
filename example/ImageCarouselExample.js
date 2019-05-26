@@ -44,11 +44,11 @@ let source = [
 ];
 
 export default class ImagePreviewCarouselExample extends Component {
-  getItemLayout = (data, index) => ({
-    length: ROW_HEIGHT + 20,
-    offset: (ROW_HEIGHT + 20) * index + HEADER_HEIGHT,
-    index,
-  });
+  // getItemLayout = (data, index) => ({
+  //   length: ROW_HEIGHT + 20,
+  //   offset: (ROW_HEIGHT + 20) * index + HEADER_HEIGHT,
+  //   index,
+  // });
 
   render() {
     return (

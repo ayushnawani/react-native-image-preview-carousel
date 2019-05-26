@@ -8,13 +8,41 @@ An Image Preview component
 
 ## Basic Usage
 
-`<ImagePreviewCarousel data={source} selectedPreviewImageContainerStyle={{}} mainImageStyle={{ backgroundColor: '#F2F2F2'}} previewFlatListProps={{}} />`
+```
+let source = [
+require('./images/pic1.png'),
+require('./images/pic2.png'),
+require('./images/pic3.png'),
+require('./images/pic4.png'),
+require('./images/pic5.png')
+]
 
-## Demo
+<ImagePreviewCarousel
+ data={source}
+ selectedPreviewImageContainerStyle={{}}
+ mainImageStyle={{ backgroundColor: '#F2F2F2'}}
+ previewFlatListProps={{}} />
+```
+
+## Example
+
+Please check the [example](https://github.com/ayushnawani/react-native-image-preview-carousel/blob/master/example/ImageCarouselExample.js) folder.
 
 ![](https://github.com/ayushnawani/react-native-image-preview-carousel/blob/master/example/demo.gif)
 
 ## Props
+
+### `mainFlatListProps`
+
+type `object`
+defaultValue: `{}`
+description: You can pass all the flatlist props to Main Image Flatlist
+
+### `previewFlatListProps`
+
+type `object`
+defaultValue: `{}`
+description: You can pass all the flatlist props to Preview Image Flatlist
 
 ### `containerStyle`
 
