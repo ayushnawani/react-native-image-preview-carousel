@@ -9,6 +9,8 @@ An Image Preview component
 ## Basic Usage
 
 ```
+import ImagePreviewCarousel from 'react-native-image-preview-carousel';
+
 let source = [
 require('./images/pic1.png'),
 require('./images/pic2.png'),
@@ -59,7 +61,7 @@ defaultValue: `{}`
 type: `style`
 defaultValue: `{}`
 
-### `mainItemContainerStyle`
+### `mainImageContainerStyle`
 
 type: `style`
 defaultValue: `{}`

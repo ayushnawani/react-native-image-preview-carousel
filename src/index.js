@@ -29,7 +29,7 @@ export default class ImagePreviewCarousel extends Component {
 
     mainFlatListContainerStyle: styleType,
 
-    mainItemContainerStyle: styleType,
+    mainImageContainerStyle: styleType,
 
     mainImageStyle: styleType,
 
@@ -51,7 +51,7 @@ export default class ImagePreviewCarousel extends Component {
 
     mainFlatListContainerStyle: {},
 
-    mainItemContainerStyle: {},
+    mainImageContainerStyle: {},
 
     mainImageStyle: {},
 
@@ -115,8 +115,8 @@ export default class ImagePreviewCarousel extends Component {
       <View
         style={[
           { width: this.state.mainItemWidth },
-          styles.mainItemContainerStyle,
-          this.props.mainItemContainerStyle,
+          styles.mainImageContainerStyle,
+          this.props.mainImageContainerStyle,
         ]}
       >
         <Image
@@ -299,7 +299,7 @@ const styles = StyleSheet.create({
     borderColor: '#F2F2F2',
   },
 
-  mainItemContainerStyle: {
+  mainImageContainerStyle: {
     flex: 1,
     height: '100%',
   },
