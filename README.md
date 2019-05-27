@@ -34,6 +34,12 @@ Please check the [example](https://github.com/ayushnawani/react-native-image-pre
 
 ## Props
 
+### `data`
+
+type `array`
+required: YES
+description: Array of Images
+
 ### `mainFlatListProps`
 
 type `object`

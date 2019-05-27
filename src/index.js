@@ -44,6 +44,8 @@ export default class ImagePreviewCarousel extends Component {
     mainFlatListProps: PropTypes.object,
 
     previewFlatListProps: PropTypes.object,
+
+    data: PropTypes.array.isRequired,
   };
 
   static defaultProps = {
